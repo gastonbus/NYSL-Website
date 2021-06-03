@@ -1,0 +1,131 @@
+    * {
+        box-sizing: border-box;
+    }
+    header h1 {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 54px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .box-header-img{
+        display: block;
+        position: static;
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/design2_image1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 30px;
+    }
+
+    nav {
+        position: absolute;
+        right: 50px;
+        top: 95px;
+    }
+
+    .menu {
+        margin: 0px;
+    }
+
+    .menu li {
+        list-style-type: none;
+        display: inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding: 4px;
+        color: white;/*No puedo poner el texto blanco*/
+        background-color: #085394;
+        border: 2px solid rgb(0, 0, 0);
+        margin-right: 20px; /*Esto no me esta haciendo nada*/
+        box-shadow: 4px 4px 4px rgb(37, 37, 37);
+    }
+
+    .menu li.active {
+        background-color: #6AA84F;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a.mailto {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    h2 {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        line-height: 50px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 36px;
+        border: 2px solid black;
+    }
+
+    main {
+        display: flex;
+        min-height: 200px;
+    }
+    
+    .logo {
+        display: inline-block;
+        height: 120px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .contenido {
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .contenido h3 {
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+
+    .contenido-about {
+        display: inline-block;
+        margin-left: 80px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contenido-about h3 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .contenido-about p {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
+    .contenido-contact {
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+
+    .contenido-contact p {
+        font-size: 18px;
+    }
+
+    footer {
+        background-color: grey;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: block;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    footer p {
+        margin: 0px;
+    }
