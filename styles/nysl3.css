@@ -53,8 +53,7 @@ ul.menu {
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    padding: 4px;
-    width: 150px;
+    padding: 4px 15px;
     color: white;
     background-color: #085394;
     margin-left: 50px;
@@ -152,3 +151,109 @@ footer p {
     margin: 0px;
     font-weight: bold;
 }
+
+.rules {
+    text-align: center;
+}
+
+h3.rules {
+    font-size: 25px;
+}
+
+h4.rules {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+p.rules {
+    font-size: 18px;
+}
+
+.contenido-rules {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido-rules h5 {
+    font-size: 20px;
+}
+
+ul.square {
+    list-style-type: square;
+
+}
+
+ol.numbers {
+    list-style-type: decimal;
+}
+
+ol.numbers > li {
+    margin-bottom: 20px;
+}
+
+ol.letters {
+    list-style-type: lower-latin;
+
+}
+
+ol.letters li {
+    padding-left: 10px;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.contenido-game-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+.contenido-game-info h3 {
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.contenido-game-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-top: 10px;
+}
+
+.first-row th {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table.main-table {
+    margin-bottom: 30px;
+}
+
+table.game-contact {
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+    border: 3px;
+    font-size: 20px;
+}
+
+td.centered {
+    text-align: center;
+}
+
+.game-info-contact {
+    color: black;
+    font-size: 16px;
+    width: 300px;
+}
+
+
